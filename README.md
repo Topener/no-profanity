@@ -9,6 +9,7 @@ npm i no-profanity
 ## Usage
 Using the no-profanity library is very simple. You can use it to detect profanity, or to filter profanity from a string. There are some basic options as well, such as overriding the placeholder character, or adding/removing words from the filterlist.
 
+### Check if a string contains profanity
 A basic sample showing a simple checker
 ```js
 import { isProfane } from 'no-profanity';
@@ -16,6 +17,7 @@ console.log(isProfane("Don't be an asshole")); // true
 console.log(isProfane("This is a nice text")); // false
 ```
 
+### Replace profanity in a string
 A basic sample showing how to replace profanities
 ```js
 import { replaceProfanities } from 'no-profanity';
@@ -23,6 +25,7 @@ console.log(replaceProfanities("Don't be an asshole")); // Don't be an *******
 console.log(replaceProfanities("This is a nice text")); // This is a nice text
 ```
 
+### Get profanities from a string
 A basic sample returning the profanities
 ```js
 console.log(containsProfanities("what an asshole"));
