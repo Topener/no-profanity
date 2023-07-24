@@ -1,6 +1,6 @@
 {
     "name": "no-profanity",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A JavaScript tool to detect and filter profanity",
     "main": "./lib/no-profanity.js",
     "directories": {
