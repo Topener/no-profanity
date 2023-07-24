@@ -1,6 +1,6 @@
 {
     "name": "no-profanity",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A JavaScript tool to detect and filter profanity",
     "main": "./lib/noprofanity",
     "directories": {
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/topener/noprofanity.git"
+        "url": "git://github.com/topener/no-profanity.git"
     },
     "keywords": [
         "curse",
