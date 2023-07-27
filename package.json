@@ -1,15 +1,14 @@
 {
     "name": "no-profanity",
-    "version": "1.0.3",
-    "description": "A JavaScript tool to detect and filter profanity",
+    "version": "1.1.0",
+    "description": "A JavaScript package to detect and filter profanity",
     "main": "./lib/no-profanity.js",
     "directories": {
         "test": "test"
     },
     "type": "module",
     "scripts": {
-        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --reporters=default",
-        "docs": "./node_modules/.bin/documentation readme --section API ./lib/badwords.js"
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --reporters=default"
     },
     "repository": {
         "type": "git",

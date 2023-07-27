@@ -27,5 +27,13 @@ describe("filter", () => {
         it("Shouldn't filter words that aren't profane.", () => {
             expect(replaceProfanities("hello there")).toBe("hello there");
         });
+
+        it("should replace tabs with spaces", () => {
+            const options = {
+                preSanitizeReplacement: "spaces",
+                preSanitize: /\btabs\b/,
+            };
+            expect(replaceProfanities({ testString: "tabs are the best", options })).toBe("spaces are the best");
+        });
     });
 });
