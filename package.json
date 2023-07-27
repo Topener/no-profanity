@@ -1,6 +1,6 @@
 {
     "name": "no-profanity",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A JavaScript package to detect and filter profanity",
     "main": "./lib/no-profanity.js",
     "directories": {
@@ -23,6 +23,7 @@
     "devDependencies": {
         "@babel/core": "^7.22.9",
         "@babel/preset-env": "^7.22.9",
+        "@types/node": "^20.4.5",
         "babel-jest": "^29.6.1",
         "better-assert": "1.0.2",
         "documentation": "^14.0.2",
