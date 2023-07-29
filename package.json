@@ -36,6 +36,6 @@
         "node": ">=14.0.0"
     },
     "dependencies": {
-        "@coffeeandfun/google-profanity-words": "^2.1.0"
+        "@coffeeandfun/google-profanity-words": "^1.0.4"
     }
 }
