@@ -8,6 +8,8 @@ npm i no-profanity
 ## Credit
 Thanks to [bad-words](https://github.com/web-mech/badwords) for the original package. This package is a rewrite of that package, with some extra features and a lot of performance improvements.
 
+Thanks to [google-profanity-words](https://github.com/coffee-and-fun/google-profanity-words) for providing the list of profanities.
+
 ## Usage
 Using the no-profanity package is very simple. You can use it to detect profanity, or to filter profanity from a string. There are some basic options as well, such as overriding the placeholder character, or adding/removing words from the filterlist.
 
