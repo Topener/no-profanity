@@ -1,6 +1,6 @@
 # no-profanity
 
-A JavaScript package to detect and filter profanity. Yes this code, and with code I mean tests, contain profanity. But what do you expect from a test in a no-profanity package.
+A JavaScript package to detect and filter profanity. Yes this code, contain profanity. But what do you expect from a no-profanity package.
 ## Installation
 ```
 npm i no-profanity
