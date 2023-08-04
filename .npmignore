@@ -3,4 +3,6 @@ node_modules
 jest.config.js
 .babelrc
 .vscode
+.husky
 _test.js
+.github
