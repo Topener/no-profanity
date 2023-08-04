@@ -1,4 +1,4 @@
-import { replaceProfanities } from "../lib/no-profanity.js";
+const { replaceProfanities } = require("../lib/no-profanity.js");
 
 describe("filter", () => {
     test("Should append words to the filter list.", () => {
