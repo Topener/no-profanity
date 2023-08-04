@@ -1,6 +1,6 @@
 {
     "name": "no-profanity",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "A JavaScript package to detect and filter profanity",
     "main": "./lib/no-profanity.js",
     "types": "./lib/no-profanity.d.ts",
