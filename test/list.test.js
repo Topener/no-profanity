@@ -18,4 +18,9 @@ describe("getProfanities", () => {
         const profanities2 = getProfanities();
         expect(profanities.length).toBeGreaterThan(profanities2.length);
     });
+
+    it("should be smaller when excluding a few words", () => {
+        const profanities = getProfanities({ options: { includes: ["foo", "bar"] } });
+        const profanities2 = getProfanities();
+    });
 });
