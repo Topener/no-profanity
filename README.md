@@ -43,6 +43,15 @@ Will return:
 } ]
 ```
 
+### Get all profanities
+A basic sample returning all profanities. It will take all options into account, such as excludes and includes. This can be useful in running tests, such as in the file [test/list.test.js](./test/list.test.js).
+
+```js
+import { getProfanities } from 'no-profanity';
+const options = {}; // add your options here
+console.log(getProfanities({options: options}));
+```
+
 ## Options
 There are some overrides possible, but as soon as you want to use an override you will no longer be able pass a string to the functions defined above, but instead, they require an arguments object, like this:
 
