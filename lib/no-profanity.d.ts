@@ -19,4 +19,11 @@ declare module "no-profanity" {
      * @returns {string} - The test string with profanities replaced.
      */
     export function replaceProfanities(args: string | { testString: string; options?: object }): string;
+
+    /**
+     * Retrieves the list of profanities based on the provided options.
+     * @param {object} options - The options object.
+     * @returns {Array<string>} - An array of profanities.
+     */
+    export function getProfanities(options?: object): Array<string>;
 }
